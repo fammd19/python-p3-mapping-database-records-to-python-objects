@@ -7,8 +7,9 @@ def reset_database():
     Song.create_table()
     Song.create("Hello", "25")
     Song.create("99 Problems", "The Black Album")
-
+    print("Done!")
 
 if __name__ == '__main__':
     reset_database()
+    print("Hi")
     import ipdb; ipdb.set_trace()
